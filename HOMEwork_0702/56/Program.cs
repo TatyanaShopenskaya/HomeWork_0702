@@ -18,6 +18,7 @@ Console.WriteLine();
 MinSumInRows(array2D);
 
 
+
 //создаем двумерный массив
 int[,] CreateMatrixRndInt(int rows, int columns, int min, int max)
 {
@@ -70,5 +71,7 @@ void MinSumInRows(int[,] array2D)
             index = i;
         }
     }
+    Console.WriteLine("------------------------------------");
     Console.WriteLine($"Строка с минимальной суммой = {index + 1}");
+    Console.WriteLine("------------------------------------");
 }
